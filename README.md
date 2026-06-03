@@ -1,5 +1,5 @@
 RailGuard – AI-Powered Indian Railway Delay Prediction Platform
-
+deployed link:https://rail-guard-ai-powered-indian-railwa.vercel.app/
 
 
 RailGuard is a full-stack railway intelligence platform that predicts train delay risk between Indian railway stations. Users can search trains by source and destination station codes, view all available trains on that route, and get an AI-generated delay score from 1 to 10 based on distance, weather, route congestion, train type, day, and time of travel.
