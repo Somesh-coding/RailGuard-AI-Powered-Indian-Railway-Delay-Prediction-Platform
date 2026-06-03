@@ -1,36 +1,41 @@
-# RailGuard - No Login Version
+RailGuard – AI-Powered Indian Railway Delay Prediction Platform
 
-Simplified deployment architecture:
 
-Frontend React -> Spring Boot Backend -> Python FastAPI ML Service
 
-No MongoDB. No login. No JWT.
+RailGuard is a full-stack railway intelligence platform that predicts train delay risk between Indian railway stations. Users can search trains by source and destination station codes, view all available trains on that route, and get an AI-generated delay score from 1 to 10 based on distance, weather, route congestion, train type, day, and time of travel.
 
-## Run backend
 
-```bash
-cd backend
-mvn spring-boot:run
-```
 
-## Run frontend
+Tech Stack
 
-```bash
-cd frontend
-npm install
-npm run dev
-```
+Frontend: React, Vite, CSS
 
-## Frontend image
+Backend: Spring Boot, Spring Security, MongoDB
 
-Put your homepage train image here:
+ML Service: Python, FastAPI, Scikit-learn
 
-```txt
-frontend/public/images/train.jpg
-```
+Database: MongoDB / MongoDB Atlas
 
-## Deployment
+Model: RandomForestRegressor
 
-Frontend: Vercel
-Backend: Render
-ML Service: Render
+Features
+
+ 
+
+Train search by source and destination
+
+AI delay prediction
+
+Delay probability
+
+Expected delay in minutes
+
+Delay score out of 10
+
+MongoDB search history storage
+
+Professional railway portal UI
+
+FastAPI ML microservice
+
+Spring Boot API gateway
